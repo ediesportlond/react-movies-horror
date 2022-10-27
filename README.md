@@ -1,8 +1,10 @@
 # React Movies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Happy Halloween! 🎃🎃🎃
 
-## Available Scripts
+See a demo at [https://horror-movies-ee.web.app](https://horror-movies-ee.web.app)
+
+## To run locally
 
 In the project directory, you can run:
 
