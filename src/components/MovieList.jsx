@@ -1,17 +1,11 @@
 import movies from "../movies";
+import Movie from "./Movie";
 
 export default function MovieList() {
     return (
         <section id="movie-list-container">
             {movies.map((movie)=>(
-            <div key={movie.id} className="movie-card">
-                <img className="movie-poster"
-                    src={movie.posterURL} 
-                    alt={movie.title} />
-                <h3 className="movie-title">
-                    {movie.title}
-                </h3>
-            </div>
+                <Movie movie={movie} />
             ))}
         </section>
     )
